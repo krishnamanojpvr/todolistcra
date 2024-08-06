@@ -173,8 +173,8 @@ const Navbar = () => {
                     },
                   }}
                   themeType="light / dark"
-                  // workspaceKey={process.env.REACT_APP_SUPRSEND_WORKSPACE_KEY}
-                  workspaceKey="YApBQPbxLEjEsdpMC69o"
+                  workspaceKey={process.env.REACT_APP_SUPRSEND_WORKSPACE_KEY}
+                  
                   
                   subscriberId={subscriberId}
                   distinctId={localStorage.getItem("username")}
