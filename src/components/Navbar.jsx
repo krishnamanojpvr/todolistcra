@@ -254,7 +254,8 @@ const Navbar = () => {
                       theme={sampleLightTheme}
                       themeType="light"
                       workspaceKey={
-                        process.env.REACT_APP_SUPRSEND_WORKSPACE_KEY 
+                        process.env.REACT_APP_SUPRSEND_WORKSPACE_KEY ||
+                        "YApBQPbxLEjEsdpMC69o"
                       }
                       subscriberId={subscriberId}
                       distinctId={localStorage.getItem("username")}
